@@ -1,4 +1,47 @@
 body {
-    background: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.7)
+      ), url("./bg_img.jpg");
+    background-size: cover;
     color: #EEE;
 }
+
+header {
+    background: #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  li {
+    border-left: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
